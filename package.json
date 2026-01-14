@@ -48,7 +48,7 @@
     "@types/node": "^24.5.2",
     "@types/sanitize-html": "^2.16.0",
     "@typescript-eslint/eslint-plugin": "^8.44.0",
-    "@typescript-eslint/parser": "^8.44.0",
+    "@typescript-eslint/parser": "^8.53.0",
     "@vercel/ncc": "^0.38.4",
     "eslint": "^9.36.0",
     "eslint-plugin-github": "^6.0.0",
