@@ -2,16 +2,16 @@
   "name": "mantis-bug-tracker-action",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cipher-fox/mantis-bug-tracker-action.git"
+    "url": "git+https://github.com/voidentropy/mantis-bug-tracker-action.git"
   },
-  "homepage": "https://github.com/cipher-fox/mantis-bug-tracker-action/#readme",
+  "homepage": "https://github.com/voidentropy/mantis-bug-tracker-action/#readme",
   "version": "1.3.8",
   "description": "Mantis Bug Tracker Action",
   "main": "lib/main.js",
   "license": "MIT",
   "author": {
     "name": "Marc Jorge Gonzalez",
-    "email": "dev@cypher-fox.com"
+    "email": "mjorge@voidentropy.com"
   },
   "keywords": [
     "GitHub",
@@ -21,7 +21,7 @@
     "Bug Tracker"
   ],
   "bugs": {
-    "url": "https://github.com/cipher-fox/mantis-bug-tracker-action/issues"
+    "url": "https://github.com/voidentropy/mantis-bug-tracker-action/issues"
   },
   "scripts": {
     "build": "tsc",
