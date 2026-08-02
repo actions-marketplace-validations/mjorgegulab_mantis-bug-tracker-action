@@ -15,7 +15,7 @@ jobs:
       - name: Sync with codeberg repo
         uses: wei/git-sync@v3
         with:
-          source_repo: "github.com/${{ github.repository }}"
+          source_repo: "${{ github.repository }}"
           source_branch: "refs/heads/*"
-          destination_repo: "https://${{ secrets.CODEBERG_SYNC_TOKEN }}@codeberg.org/${{ github.repository }}.git"
+          destination_repo: "https://${{ secrets.CODEBERG_TOKEN }}@codeberg.org/${{ github.repository }}.git"
           destination_branch: "refs/heads/*"
