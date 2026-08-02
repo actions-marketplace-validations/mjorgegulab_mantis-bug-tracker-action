@@ -1,4 +1,4 @@
-name: Sincronización completa con Codeberg
+name: Sync codeberg repo
 
 on:
   push:
@@ -17,5 +17,5 @@ jobs:
         with:
           source_repo: "${{ github.repository }}"
           source_branch: "refs/heads/*"
-          destination_repo: "https://${{ secrets.CODEBERG_TOKEN }}@codeberg.org/${{ github.repository }}.git"
+          destination_repo: "https://${{ secrets.CODEBERG_SYNC_TOKEN }}@codeberg.org/${{ github.repository }}.git"
           destination_branch: "refs/heads/*"
